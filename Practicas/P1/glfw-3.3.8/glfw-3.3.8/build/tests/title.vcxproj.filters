@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\tests\title.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\deps\glad_gl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\deps\glad\gl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{43877AE1-D3E0-33E8-B4C3-54A858E0D99D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FDADB9C3-A376-3C85-A210-F060FE01AAB1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

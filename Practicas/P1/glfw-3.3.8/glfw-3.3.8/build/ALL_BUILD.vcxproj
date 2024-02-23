@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EC632C0B-1BD7-3404-B3DE-19945FECEBDE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/kedos/OneDrive - Escuela Politécnica Nacional/Ingeniería en Software/Clases EPN/S5/CG/Practicas/P1/glfw-3.3.8/glfw-3.3.8/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/kedos/OneDrive - Escuela Politécnica Nacional/Ingeniería en Software/Clases EPN/S5/CG/Practicas/P1/glfw-3.3.8/glfw-3.3.8" "-BC:/Users/kedos/OneDrive - Escuela Politécnica Nacional/Ingeniería en Software/Clases EPN/S5/CG/Practicas/P1/glfw-3.3.8/glfw-3.3.8/build" --check-stamp-file "C:/Users/kedos/OneDrive - Escuela Politécnica Nacional/Ingeniería en Software/Clases EPN/S5/CG/Practicas/P1/glfw-3.3.8/glfw-3.3.8/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\CMakeFiles\3.28.0-rc5\CMakeCCompiler.cmake;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\CMakeFiles\3.28.0-rc5\CMakeRCCompiler.cmake;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\CMakeFiles\3.28.0-rc5\CMakeSystem.cmake;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\cmake_uninstall.cmake.in;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\src\glfw3.pc.in;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\src\glfw3Config.cmake.in;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/kedos/OneDrive - Escuela Politécnica Nacional/Ingeniería en Software/Clases EPN/S5/CG/Practicas/P1/glfw-3.3.8/glfw-3.3.8/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/kedos/OneDrive - Escuela Politécnica Nacional/Ingeniería en Software/Clases EPN/S5/CG/Practicas/P1/glfw-3.3.8/glfw-3.3.8" "-BC:/Users/kedos/OneDrive - Escuela Politécnica Nacional/Ingeniería en Software/Clases EPN/S5/CG/Practicas/P1/glfw-3.3.8/glfw-3.3.8/build" --check-stamp-file "C:/Users/kedos/OneDrive - Escuela Politécnica Nacional/Ingeniería en Software/Clases EPN/S5/CG/Practicas/P1/glfw-3.3.8/glfw-3.3.8/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\CMakeFiles\3.28.0-rc5\CMakeCCompiler.cmake;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\CMakeFiles\3.28.0-rc5\CMakeRCCompiler.cmake;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\CMakeFiles\3.28.0-rc5\CMakeSystem.cmake;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\cmake_uninstall.cmake.in;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\src\glfw3.pc.in;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\src\glfw3Config.cmake.in;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/kedos/OneDrive - Escuela Politécnica Nacional/Ingeniería en Software/Clases EPN/S5/CG/Practicas/P1/glfw-3.3.8/glfw-3.3.8/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/kedos/OneDrive - Escuela Politécnica Nacional/Ingeniería en Software/Clases EPN/S5/CG/Practicas/P1/glfw-3.3.8/glfw-3.3.8" "-BC:/Users/kedos/OneDrive - Escuela Politécnica Nacional/Ingeniería en Software/Clases EPN/S5/CG/Practicas/P1/glfw-3.3.8/glfw-3.3.8/build" --check-stamp-file "C:/Users/kedos/OneDrive - Escuela Politécnica Nacional/Ingeniería en Software/Clases EPN/S5/CG/Practicas/P1/glfw-3.3.8/glfw-3.3.8/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\CMakeFiles\3.28.0-rc5\CMakeCCompiler.cmake;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\CMakeFiles\3.28.0-rc5\CMakeRCCompiler.cmake;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\CMakeFiles\3.28.0-rc5\CMakeSystem.cmake;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\cmake_uninstall.cmake.in;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\src\glfw3.pc.in;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\src\glfw3Config.cmake.in;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/kedos/OneDrive - Escuela Politécnica Nacional/Ingeniería en Software/Clases EPN/S5/CG/Practicas/P1/glfw-3.3.8/glfw-3.3.8/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/kedos/OneDrive - Escuela Politécnica Nacional/Ingeniería en Software/Clases EPN/S5/CG/Practicas/P1/glfw-3.3.8/glfw-3.3.8" "-BC:/Users/kedos/OneDrive - Escuela Politécnica Nacional/Ingeniería en Software/Clases EPN/S5/CG/Practicas/P1/glfw-3.3.8/glfw-3.3.8/build" --check-stamp-file "C:/Users/kedos/OneDrive - Escuela Politécnica Nacional/Ingeniería en Software/Clases EPN/S5/CG/Practicas/P1/glfw-3.3.8/glfw-3.3.8/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\CMakeFiles\3.28.0-rc5\CMakeCCompiler.cmake;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\CMakeFiles\3.28.0-rc5\CMakeRCCompiler.cmake;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\CMakeFiles\3.28.0-rc5\CMakeSystem.cmake;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\cmake_uninstall.cmake.in;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\src\glfw3.pc.in;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\src\glfw3Config.cmake.in;C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\ZERO_CHECK.vcxproj">
+      <Project>{0A96CD70-1212-363B-9A59-AFDAFAF6F59A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\examples\boing.vcxproj">
+      <Project>{1DA01F8F-B2CF-3533-8CB6-BA6659D86B8F}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\clipboard.vcxproj">
+      <Project>{B79E05C5-028C-3F81-A421-7A4F349A81EB}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\cursor.vcxproj">
+      <Project>{7DBE1082-1BD0-38EC-8C8E-8F57BD6F4032}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\empty.vcxproj">
+      <Project>{30C2F8D0-C8C7-3E89-A5C3-3315D127FBF3}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\events.vcxproj">
+      <Project>{BB2F1A1B-B10B-358F-9606-61C75C0513CA}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\gamma.vcxproj">
+      <Project>{4B17ECB8-0FED-35FB-AC25-7384E8C69774}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\examples\gears.vcxproj">
+      <Project>{554AB55C-811F-3680-B623-5A22F56007F1}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\src\glfw.vcxproj">
+      <Project>{30F7E3FA-3100-3DA9-922B-84BA59012C49}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\glfwinfo.vcxproj">
+      <Project>{D6CA9A6B-FB83-367F-BE8E-E87A703B3B4F}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\examples\heightmap.vcxproj">
+      <Project>{F0C4E62E-8204-361B-8744-05EAD042C1C5}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\icon.vcxproj">
+      <Project>{A51D3E1F-ADEF-3548-8F06-A59A79548516}</Project>
+      <Name>icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\iconify.vcxproj">
+      <Project>{C447083A-79CB-359D-9F9A-201181B5084D}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\inputlag.vcxproj">
+      <Project>{9E705517-3EBF-395F-A354-FE7816136283}</Project>
+      <Name>inputlag</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\joysticks.vcxproj">
+      <Project>{FF8378A3-8264-338C-83D5-8EE876163189}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\monitors.vcxproj">
+      <Project>{3C39F591-8282-3017-9BA6-D6EBBC4730C0}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\msaa.vcxproj">
+      <Project>{984144F7-FA08-39EC-B121-690D5EB5B26C}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\examples\offscreen.vcxproj">
+      <Project>{3C670CED-FFCB-320A-A4D2-A8830BBBA4FB}</Project>
+      <Name>offscreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\opacity.vcxproj">
+      <Project>{12638719-E8AE-3235-B4A1-A93D5616BA27}</Project>
+      <Name>opacity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\examples\particles.vcxproj">
+      <Project>{776E905B-2C1F-301C-B301-357E4A84121A}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\reopen.vcxproj">
+      <Project>{A5174939-38E7-3B26-B5E6-860A27C3292E}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\examples\sharing.vcxproj">
+      <Project>{2A4FB970-B2D8-39C4-8CA6-4BF8FBD6B8E8}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\examples\simple.vcxproj">
+      <Project>{098FC934-F419-3070-AF88-5D2C197E1AA8}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\examples\splitview.vcxproj">
+      <Project>{54FD3E86-AD47-3486-87DA-3748DB94195C}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\tearing.vcxproj">
+      <Project>{F5EBB2F5-F1E8-3E0C-B506-D49A92100D0C}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\threads.vcxproj">
+      <Project>{BD8913EC-74BC-3F16-B883-89CDABE6914C}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\timeout.vcxproj">
+      <Project>{5865EEA4-F5D2-3C39-85B0-D0D47E1B32C0}</Project>
+      <Name>timeout</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\title.vcxproj">
+      <Project>{2FD1E9D2-F015-3429-B88E-AA5AC6BB5DFA}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\triangle-vulkan.vcxproj">
+      <Project>{5E493E0C-499C-3E92-A44C-5CF53C3CE7AC}</Project>
+      <Name>triangle-vulkan</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\examples\wave.vcxproj">
+      <Project>{BC05E6F8-5237-326F-BA57-BF4E8D45F923}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\tests\windows.vcxproj">
+      <Project>{8A9A6C73-22C4-3093-96C8-771147A5053D}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

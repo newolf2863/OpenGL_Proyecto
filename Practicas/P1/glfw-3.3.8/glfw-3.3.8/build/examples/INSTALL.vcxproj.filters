@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kedos\OneDrive - Escuela Politécnica Nacional\Ingeniería en Software\Clases EPN\S5\CG\Practicas\P1\glfw-3.3.8\glfw-3.3.8\build\CMakeFiles\ce2c526ae1dfcff996b1deec511ed63f\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{376D8B34-0D0C-3DE7-9A5A-A69D3FEAFF61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

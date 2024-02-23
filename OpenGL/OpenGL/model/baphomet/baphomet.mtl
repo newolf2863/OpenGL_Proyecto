@@ -1,0 +1,134 @@
+# Blender 4.0.2 MTL File: 'None'
+# www.blender.org
+
+newmtl armorarm1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd armorarm1_baseColor.jpeg
+map_Bump -bm 1.000000 armorarm1_normal.jpeg
+
+newmtl armorarn2
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd armorarn2_baseColor.jpeg
+map_Bump -bm 1.000000 armorarn2_normal.jpeg
+
+newmtl armorhead
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd armorhead_baseColor.jpeg
+map_Bump -bm 1.000000 armorhead_normal.jpeg
+
+newmtl armorleg1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd armorleg1_baseColor.jpeg
+map_Bump -bm 1.000000 armorleg1_normal.jpeg
+
+newmtl armorleg2
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd armorleg2_baseColor.jpeg
+map_Bump -bm 1.000000 armorleg2_normal.jpeg
+
+newmtl body
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd body_baseColor.jpeg
+map_Bump -bm 1.000000 body_normal.jpeg
+
+newmtl chest_armor
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd chest_armor_baseColor.jpeg
+map_Bump -bm 1.000000 chest_armor_normal.jpeg
+
+newmtl fabic11
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd fabic11_baseColor.jpeg
+map_Bump -bm 1.000000 fabic11_normal.jpeg
+
+newmtl furhead
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd furhead_baseColor.jpeg
+map_Bump -bm 1.000000 furhead_normal.jpeg
+
+newmtl furleg1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd furleg1_baseColor.jpeg
+map_Bump -bm 1.000000 furleg1_normal.jpeg
+
+newmtl hair
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd hair_baseColor.jpeg
+map_Bump -bm 1.000000 hair_normal.jpeg
+
+newmtl pelvis
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd pelvis_baseColor.jpeg
+map_Bump -bm 1.000000 pelvis_normal.jpeg
